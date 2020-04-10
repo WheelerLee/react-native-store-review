@@ -1,6 +1,6 @@
 {
   "name": "@activatortube/react-native-store-review",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "./lib/StoreReview.js",
   "typings": "./lib/StoreReview.d.ts",
@@ -29,6 +29,6 @@
     "android",
     "ios",
     "lib",
-    "react-native-store-review.podspec"
+    "RNStoreReview.podspec"
   ]
 }
