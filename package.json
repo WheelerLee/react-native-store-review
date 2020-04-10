@@ -1,6 +1,6 @@
 {
   "name": "@activatortube/react-native-store-review",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Open App Store or google play to review",
   "main": "./lib/StoreReview.js",
   "typings": "./lib/StoreReview.d.ts",

@@ -25,9 +25,9 @@ public class RNStoreReviewModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void show(String package) {
+    public void show(String packageName) {
 
-        Uri uri = Uri.parse("market://details?id=" + package);
+        Uri uri = Uri.parse("market://details?id=" + packageName);
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         getCurrentActivity().startActivity(intent);
