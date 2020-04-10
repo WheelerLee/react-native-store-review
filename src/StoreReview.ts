@@ -12,7 +12,12 @@ const NativeStoreReview = NativeModules['StoreReview'];
 
 export default class StoreReview {
 
-  static show() {
+  /**
+   * Open App Store or google play to review
+   * @param appleId Apple ID, Assigned by appstoreconnect
+   * @param packageName Android package
+   */
+  static show(appleId: string, packageName: string) {
     if (Platform.OS === 'ios') {
       const version = Platform.Version as string;
       let versions = version.split('.');
@@ -20,10 +25,10 @@ export default class StoreReview {
       if (parseInt(versions[0]) > 10 || (parseInt(versions[0]) === 10 && parseInt(versions[1]) >= 3)) { 
         NativeStoreReview.show();
       } else {
-        NativeStoreReview.showOldWay();
+        NativeStoreReview.showOldWay(appleId);
       }
     } else {
-      NativeStoreReview.show();
+      NativeStoreReview.show(packageName);
     }
   }
 

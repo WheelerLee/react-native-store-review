@@ -1,6 +1,6 @@
 {
-  "name": "react-native-store-review",
-  "version": "1.0.0",
+  "name": "@activatortube/react-native-store-review",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/StoreReview.js",
   "typings": "./lib/StoreReview.d.ts",
