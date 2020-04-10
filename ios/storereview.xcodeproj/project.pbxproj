@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C47232CD24401CA900F20C91 /* storereview.m in Sources */ = {isa = PBXBuildFile; fileRef = C47232CC24401CA900F20C91 /* storereview.m */; };
-		C47232CE24401CA900F20C91 /* storereview.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C47232CB24401CA900F20C91 /* storereview.h */; };
+		C47232D624401CE600F20C91 /* RNStoreReview.m in Sources */ = {isa = PBXBuildFile; fileRef = C47232D524401CE600F20C91 /* RNStoreReview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C47232CE24401CA900F20C91 /* storereview.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		C47232C824401CA900F20C91 /* libstorereview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libstorereview.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C47232CB24401CA900F20C91 /* storereview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = storereview.h; sourceTree = "<group>"; };
-		C47232CC24401CA900F20C91 /* storereview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storereview.m; sourceTree = "<group>"; };
+		C47232D424401CE600F20C91 /* RNStoreReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNStoreReview.h; sourceTree = "<group>"; };
+		C47232D524401CE600F20C91 /* RNStoreReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNStoreReview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +58,8 @@
 		C47232CA24401CA900F20C91 /* storereview */ = {
 			isa = PBXGroup;
 			children = (
-				C47232CB24401CA900F20C91 /* storereview.h */,
-				C47232CC24401CA900F20C91 /* storereview.m */,
+				C47232D424401CE600F20C91 /* RNStoreReview.h */,
+				C47232D524401CE600F20C91 /* RNStoreReview.m */,
 			);
 			path = storereview;
 			sourceTree = "<group>";
@@ -123,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C47232CD24401CA900F20C91 /* storereview.m in Sources */,
+				C47232D624401CE600F20C91 /* RNStoreReview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
